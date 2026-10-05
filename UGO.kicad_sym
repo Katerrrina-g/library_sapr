@@ -207,7 +207,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "DA"
-			(at 1.75 0.5 0)
+			(at 1.75 1.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Value" "ADP5071AREZ"
-			(at 6.75 -40.75 0)
+			(at 7.5 -153 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -261,8 +261,8 @@
 		)
 		(symbol "ADP5071_0_1"
 			(rectangle
-				(start 0 -1)
-				(end 22.5 -39)
+				(start 0 0)
+				(end 22.5 -150)
 				(stroke
 					(width 0)
 					(type solid)
@@ -274,7 +274,7 @@
 		)
 		(symbol "ADP5071_1_1"
 			(pin power_in line
-				(at 24.5 -32.5 180)
+				(at 24.5 -31.5 180)
 				(length 2)
 				(name "PGND"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin power_out line
-				(at 24.5 -7.5 180)
+				(at 24.5 -6.5 180)
 				(length 2)
 				(name "SW1"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin power_out line
-				(at 24.5 -2.5 180)
+				(at 24.5 -1.5 180)
 				(length 2)
 				(name "INBK"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin input line
-				(at -2 -5 0)
+				(at -2 -15 0)
 				(length 2)
 				(name "SYNC/FREQ"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin input line
-				(at -2 -20 0)
+				(at -2 -75 0)
 				(length 2)
 				(name "SEQ"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin input line
-				(at -2 -7.5 0)
+				(at -2 -25 0)
 				(length 2)
 				(name "SLEW"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin input line
-				(at 24.5 -12.5 180)
+				(at 24.5 -11.5 180)
 				(length 2)
 				(name "FB1"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin passive line
-				(at -2 -15 0)
+				(at -2 -55 0)
 				(length 2)
 				(name "COMP1"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin input line
-				(at -2 -10 0)
+				(at -2 -35 0)
 				(length 2)
 				(name "EN1"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin passive line
-				(at -2 -2.5 0)
+				(at -2 -5 0)
 				(length 2)
 				(name "SS"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin input line
-				(at -2 -12.5 0)
+				(at -2 -45 0)
 				(length 2)
 				(name "EN2"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin passive line
-				(at -2 -17.5 0)
+				(at -2 -65 0)
 				(length 2)
 				(name "COMP2"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin input line
-				(at 24.5 -22.5 180)
+				(at 24.5 -21.5 180)
 				(length 2)
 				(name "FB2"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin output line
-				(at 24.5 -27.5 180)
+				(at 24.5 -26.5 180)
 				(length 2)
 				(name "VREF"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin power_in line
-				(at 24.5 -35 180)
+				(at 24.5 -34 180)
 				(length 2)
 				(name "AGND"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin output line
-				(at -2 -27.5 0)
+				(at -2 -105 0)
 				(length 2)
 				(name "VREG"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -32.5 0)
+				(at -2 -125 0)
 				(length 2)
 				(name "PVIN1"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -37.5 0)
+				(at -2 -145 0)
 				(length 2)
 				(name "PVINSYS"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -35 0)
+				(at -2 -135 0)
 				(length 2)
 				(name "PVIN2"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin power_out line
-				(at 24.5 -17.5 180)
+				(at 24.5 -16.5 180)
 				(length 2)
 				(name "SW2"
 					(effects
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin power_in line
-				(at 24.5 -37.5 180)
+				(at 24.5 -36.5 180)
 				(length 2)
 				(name "EP(AGND)"
 					(effects

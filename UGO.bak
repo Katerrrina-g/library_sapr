@@ -1651,7 +1651,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
-			(at -5 -12.75 0)
+			(at -2.5 -12.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
