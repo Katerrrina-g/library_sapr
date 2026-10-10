@@ -2,6 +2,145 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
+	(symbol "+1,8B"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1,8B"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+1,8B_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+1,8B_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "+15B"
 		(power global)
 		(pin_numbers
@@ -2212,6 +2351,7 @@
 			(pin passive line
 				(at 4 4.456 270)
 				(length 3)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2230,6 +2370,7 @@
 			(pin passive line
 				(at 4 -2.956 90)
 				(length 3)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -3108,7 +3249,7 @@
 		(symbol "ISOUSB_0_1"
 			(rectangle
 				(start 0 0)
-				(end 35 -120)
+				(end 35 -130)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3120,7 +3261,7 @@
 		)
 		(symbol "ISOUSB_1_1"
 			(text "ISOUSB211"
-				(at 5 -122 0)
+				(at 5.5 -132 0)
 				(effects
 					(font
 						(size 0.9906 0.9906)
@@ -3164,7 +3305,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -105 0)
+				(at -2 -115 0)
 				(length 2)
 				(name "GND1"
 					(effects
@@ -3174,6 +3315,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.5 -95 0)
+				(length 2.54)
+				(name "V1P8V1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3290,7 +3449,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -95 0)
+				(at -2 -105 0)
 				(length 2)
 				(name "V1P8V1"
 					(effects
@@ -3308,7 +3467,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2 -115 0)
+				(at -2 -125 0)
 				(length 2)
 				(name "GND1"
 					(effects
@@ -3362,7 +3521,7 @@
 				)
 			)
 			(pin power_in line
-				(at 37 -105 180)
+				(at 37 -115 180)
 				(length 2)
 				(name "GND2"
 					(effects
@@ -3372,6 +3531,24 @@
 					)
 				)
 				(number "17"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 37.5 -95 180)
+				(length 2.54)
+				(name "V1P8V2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3488,7 +3665,7 @@
 				)
 			)
 			(pin power_in line
-				(at 37 -95 180)
+				(at 37 -105 180)
 				(length 2)
 				(name "V1P8V2"
 					(effects
@@ -3506,7 +3683,7 @@
 				)
 			)
 			(pin power_in line
-				(at 37 -115 180)
+				(at 37 -125 180)
 				(length 2)
 				(name "GND2"
 					(effects
@@ -3855,6 +4032,7 @@
 			(pin passive line
 				(at 0 8 270)
 				(length 3)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -3873,6 +4051,7 @@
 			(pin passive line
 				(at 0 -18 90)
 				(length 3)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4293,6 +4472,7 @@
 			(pin passive line
 				(at 2 13 270)
 				(length 3)
+				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4784,6 +4964,145 @@
 					(effects
 						(font
 							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VBUSIN"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUSIN"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VBUSIN_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VBUSIN_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
