@@ -1179,7 +1179,7 @@
 		(symbol "47346-0001_0_1"
 			(rectangle
 				(start 0 0)
-				(end 25 -25)
+				(end 25 -30)
 				(stroke
 					(width 0)
 					(type default)
@@ -1202,7 +1202,7 @@
 			)
 			(polyline
 				(pts
-					(xy 17.5 0) (xy 17.5 -25)
+					(xy 17.5 0) (xy 17.5 -30)
 				)
 				(stroke
 					(width 0)
@@ -1248,9 +1248,29 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 25 -25) (xy 0 -25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "47346-0001_1_1"
-			(text "VBUS"
+			(text "47346-0001"
+				(at 6.5 -31.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Цепь"
 				(at 8.5 -2.5 0)
 				(effects
 					(font
@@ -1258,8 +1278,16 @@
 					)
 				)
 			)
+			(text "VBUS"
+				(at 8.5 -7.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
 			(text "D-"
-				(at 8.5 -8 0)
+				(at 8.5 -13 0)
 				(effects
 					(font
 						(size 0.9906 0.9906)
@@ -1267,14 +1295,6 @@
 				)
 			)
 			(text "D+"
-				(at 8.5 -12.5 0)
-				(effects
-					(font
-						(size 0.9906 0.9906)
-					)
-				)
-			)
-			(text "ID"
 				(at 8.5 -17.5 0)
 				(effects
 					(font
@@ -1282,7 +1302,7 @@
 					)
 				)
 			)
-			(text "GND"
+			(text "ID"
 				(at 8.5 -22.5 0)
 				(effects
 					(font
@@ -1290,7 +1310,15 @@
 					)
 				)
 			)
-			(text "1"
+			(text "GND"
+				(at 8.5 -27.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Конт."
 				(at 21 -2.5 0)
 				(effects
 					(font
@@ -1298,7 +1326,7 @@
 					)
 				)
 			)
-			(text "2\n"
+			(text "1"
 				(at 21 -7.5 0)
 				(effects
 					(font
@@ -1306,7 +1334,7 @@
 					)
 				)
 			)
-			(text "3"
+			(text "2\n"
 				(at 21 -12.5 0)
 				(effects
 					(font
@@ -1314,7 +1342,7 @@
 					)
 				)
 			)
-			(text "4"
+			(text "3"
 				(at 21 -17.5 0)
 				(effects
 					(font
@@ -1322,7 +1350,7 @@
 					)
 				)
 			)
-			(text "5"
+			(text "4"
 				(at 21 -22.5 0)
 				(effects
 					(font
@@ -1330,8 +1358,16 @@
 					)
 				)
 			)
+			(text "5"
+				(at 21 -27.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
 			(pin passive line
-				(at 27.5 -2.5 180)
+				(at 27.5 -7.5 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1349,7 +1385,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.5 -7.5 180)
+				(at 27.5 -12.5 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1367,7 +1403,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.5 -12.5 180)
+				(at 27.5 -17.5 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1385,7 +1421,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.5 -17.5 180)
+				(at 27.5 -22.5 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1403,7 +1439,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.5 -22.5 180)
+				(at 27.5 -27.5 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -2205,6 +2241,397 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DS-1021-1x6"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "XT"
+			(at 2.5 1.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DS-1021-1x6_0_1"
+			(rectangle
+				(start 0 0)
+				(end 25 -35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -15) (xy 25 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 0) (xy 17.5 -35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -5) (xy 0 -5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -10) (xy 0 -10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -20) (xy 0 -20)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -25) (xy 0 -25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -30) (xy 0 -30)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DS-1021-1x6_1_1"
+			(text "DS-1021-1x6"
+				(at 6.5 -36.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 8.5 -2.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "VEXT"
+				(at 8.5 -7.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "OTG_FS_DM"
+				(at 8.5 -13 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "OTG_FS_DP"
+				(at 8.5 -17.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "SUP_POS"
+				(at 8.5 -22.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "SUP_NEG"
+				(at 8.5 -27.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "GND"
+				(at 8.5 -32.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Конт."
+				(at 21 -2.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "1"
+				(at 21 -7.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "2\n"
+				(at 21 -12.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "3"
+				(at 21 -17.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "4"
+				(at 21 -22.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "5"
+				(at 21 -27.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "6"
+				(at 21 -32.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -7.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -12.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -17.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -22.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -27.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -32.5 180)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
 						)
 					)
 				)
