@@ -1,0 +1,193 @@
+(footprint "L_TDK_NLV32_3.2x2.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TDK NLV32, 3.2x2.5x2.2mm, https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_standard_nlv32-ef_en.pdf")
+	(tags "tdk nlv32 nlcv32 nlfv32")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "5de5f4bf-14e5-4da7-b555-a52773acaad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_TDK_NLV32_3.2x2.5mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "dc9bc89f-7934-496f-ba1a-56fc0dafc95d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d88afb58-b131-4eb0-9b0b-ab421877cc5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a494eb-b5b0-4239-a915-06883a4db98d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.6 -1.36)
+		(end 1.6 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3533a85e-1859-4bed-9868-2db31d0f85e4")
+	)
+	(fp_line
+		(start 1.6 1.36)
+		(end -1.6 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6e7ffb5-7181-4798-88e1-f403d9977c25")
+	)
+	(fp_line
+		(start -2.45 -1.5)
+		(end 2.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab4fe063-628f-4fe9-a5fa-690a17bbc13f")
+	)
+	(fp_line
+		(start -2.45 1.5)
+		(end -2.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "156e0e9f-a124-4030-b759-ce93d76bc627")
+	)
+	(fp_line
+		(start 2.45 -1.5)
+		(end 2.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b4abfd0-92c3-4e49-8481-4a8e5fba1d2a")
+	)
+	(fp_line
+		(start 2.45 1.5)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cfea6d6-579d-41d6-ae0e-8e6fe02fd32a")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33cb0b3c-2bed-4071-b7b4-636ae85260ff")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a38530a-f1bf-4945-8cc1-c95c5ef53bc1")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bd6f2b9-9b65-4fc6-9aba-5a3e8f5b8ce6")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2155ef57-cae9-4b52-9a9a-f0fe62c0597b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a3cbd49a-6bd3-4b7f-85e9-ba121658fa1a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 0)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdb45fd0-2afb-4ce0-b799-64d5e0025fc9")
+	)
+	(pad "2" smd rect
+		(at 1.6 0)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3d27249-9e93-433d-a63f-e5f5168603e6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_NLV32_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

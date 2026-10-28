@@ -120,7 +120,7 @@
 			)
 		)
 		(symbol "+1,8B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -259,7 +259,7 @@
 			)
 		)
 		(symbol "+15B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -398,7 +398,7 @@
 			)
 		)
 		(symbol "+16B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -537,7 +537,7 @@
 			)
 		)
 		(symbol "+3.3B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -676,7 +676,146 @@
 			)
 		)
 		(symbol "+5B_1_1"
-			(pin power_in line
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "+5_1B"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5_1B"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "+5_1B_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "+5_1B_1_1"
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -815,7 +954,7 @@
 			)
 		)
 		(symbol "-15B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -954,285 +1093,7 @@
 			)
 		)
 		(symbol "-16B_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "-3.3B"
-		(power global)
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#PWR"
-			(at 0 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-3,3B"
-			(at 0 3.556 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "-3.3B_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "-3.3B_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "-5B"
-		(power global)
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#PWR"
-			(at 0 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-5B"
-			(at 0 3.556 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "-5B_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "-5B_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -1505,7 +1366,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 27.5 -7.5 180)
 				(length 2.54)
 				(name ""
@@ -1577,7 +1438,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 27.5 -27.5 180)
 				(length 2.54)
 				(name ""
@@ -2131,7 +1992,7 @@
 				)
 			)
 			(pin power_in line
-				(at 42 -135 180)
+				(at 42 -145 180)
 				(length 2)
 				(name "AGND"
 					(effects
@@ -2238,24 +2099,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 42 -145 180)
-				(length 2)
-				(name "EP(AGND)"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -2351,7 +2194,6 @@
 			(pin passive line
 				(at 4 4.456 270)
 				(length 3)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2370,7 +2212,6 @@
 			(pin passive line
 				(at 4 -2.956 90)
 				(length 3)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -2389,7 +2230,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DS-1021-1x6"
+	(symbol "DS-1021-1x6_1"
 		(pin_names
 			(offset 0.5)
 		)
@@ -2451,7 +2292,7 @@
 				)
 			)
 		)
-		(symbol "DS-1021-1x6_0_1"
+		(symbol "DS-1021-1x6_1_0_1"
 			(rectangle
 				(start 0 0)
 				(end 25 -35)
@@ -2548,7 +2389,398 @@
 				)
 			)
 		)
-		(symbol "DS-1021-1x6_1_1"
+		(symbol "DS-1021-1x6_1_1_1"
+			(text "DS-1021-1x6"
+				(at 6.5 -36.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "VEXT"
+				(at 8 -17.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "SUP_POS"
+				(at 8 -28 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Цепь"
+				(at 8.5 -2.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "OTG_FS_DP"
+				(at 8.5 -8 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "OTG_FS_DM"
+				(at 8.5 -13 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "SUP_NEG"
+				(at 8.5 -23 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "GND"
+				(at 8.5 -32.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "Конт."
+				(at 21 -2.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "1"
+				(at 21 -7.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "2\n"
+				(at 21 -12.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "3"
+				(at 21 -17.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "4"
+				(at 21 -22.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "5"
+				(at 21 -27.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "6"
+				(at 21 -32.5 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -7.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -12.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.5 -17.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -22.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.5 -27.5 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.5 -32.5 180)
+				(length 2.5)
+				(name ""
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DS-1021-1x6_2"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "XT"
+			(at 2.5 1.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DS-1021-1x6_2_0_1"
+			(rectangle
+				(start 0 0)
+				(end 25 -35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -15) (xy 25 -15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.5 0) (xy 17.5 -35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -5) (xy 0 -5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -10) (xy 0 -10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -20) (xy 0 -20)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -25) (xy 0 -25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25 -30) (xy 0 -30)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DS-1021-1x6_2_1_1"
 			(text "DS-1021-1x6"
 				(at 6.5 -36.5 0)
 				(effects
@@ -2565,23 +2797,23 @@
 					)
 				)
 			)
-			(text "VEXT"
-				(at 8.5 -7.5 0)
+			(text "+15В"
+				(at 8.5 -8 0)
 				(effects
 					(font
 						(size 0.9906 0.9906)
 					)
 				)
 			)
-			(text "OTG_FS_DM"
-				(at 8.5 -13 0)
+			(text "+5В"
+				(at 8.5 -12.5 0)
 				(effects
 					(font
 						(size 0.9906 0.9906)
 					)
 				)
 			)
-			(text "OTG_FS_DP"
+			(text "-15В"
 				(at 8.5 -17.5 0)
 				(effects
 					(font
@@ -2589,7 +2821,7 @@
 					)
 				)
 			)
-			(text "SUP_POS"
+			(text "+3,3В"
 				(at 8.5 -22.5 0)
 				(effects
 					(font
@@ -2597,7 +2829,7 @@
 					)
 				)
 			)
-			(text "SUP_NEG"
+			(text "GND"
 				(at 8.5 -27.5 0)
 				(effects
 					(font
@@ -2741,7 +2973,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 27.5 -27.5 180)
 				(length 2.54)
 				(name ""
@@ -2759,7 +2991,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 27.5 -32.5 180)
 				(length 2.5)
 				(name ""
@@ -4032,7 +4264,6 @@
 			(pin passive line
 				(at 0 8 270)
 				(length 3)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4051,7 +4282,6 @@
 			(pin passive line
 				(at 0 -18 90)
 				(length 3)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4354,7 +4584,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 37 -25 180)
 				(length 2)
 				(name "-Vout"
@@ -4388,6 +4618,121 @@
 							(size 0.9906 0.9906)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -4472,7 +4817,6 @@
 			(pin passive line
 				(at 2 13 270)
 				(length 3)
-				(hide yes)
 				(name ""
 					(effects
 						(font
@@ -4593,7 +4937,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 37 -5 180)
 				(length 2)
 				(name "VOUT"
@@ -4824,7 +5168,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 37 -5 180)
 				(length 2)
 				(name "VOUT"
@@ -5089,7 +5433,7 @@
 			)
 		)
 		(symbol "VBUSIN_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 0 90)
 				(length 0)
 				(name ""
@@ -5233,7 +5577,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5251,7 +5595,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
